@@ -1,14 +1,31 @@
 <!--
     下拉菜单的基础结构:
-       [ 容器 ] > ( [ 触发器 ] > [ 小图标 ] ) + ( [ 下拉按钮组 ] > [ 按钮组按钮 ] )
-    [ 容器 ]
-        通常是个 div, 如果在导航中, 也可能是个 li, 必须添加 .dropdown|dropup ( 用来定义是下拉菜单还是上拉菜单 )
-    [ 触发器 ]
-        通常是 button 或 a, 必须添加 .dropdown-toggle ( 用来定义这是触发器 ) data-toggle ( 用来关联到 js 脚本 )
-    [ 小图标 ]
-        固定写法 <span class="caret"></span>
-    [ 下拉按钮组 ]
-        通常是 ul, 必须添加 .dropdown-menu ( 用来定义这是按钮组 ); 可以添加 .dropdown-menu-right ( 用来指定是否右对齐 ) 
-    [ 按钮组按钮 ]
-        通常是 li, 标题添加 .dropdown-header; 分割线添加 .dropdown-divider; 禁用项添加 .disabled
+        [ 容器 ] > 
+            ( [ 触发器 ] > [ 小图标 ] ) + 
+            ( [ 下拉按钮组 ] > [ 按钮组按钮 ] )
+
+    说明
+        [ 容器 ]
+            通常是个 div, 如果在导航中, 也可能是个 li, 
+            必须添加 
+                .dropdown|dropup ( 用来定义是下拉菜单还是上拉菜单 )
+        [ 触发器 ]
+            通常是 button 或 a, 
+            必须添加 
+                .dropdown-toggle ( 用来定义这是触发器 ) 
+                data-toggle ( 用来关联到 js 脚本 )
+        [ 小图标 ]
+            固定写法 <span class="caret"></span>
+        [ 下拉按钮组 ]
+            通常是 ul, 
+            必须添加 
+                .dropdown-menu ( 用来定义这是按钮组 );
+            可以添加 
+                .dropdown-menu-right ( 用来指定是否右对齐 ) 
+        [ 按钮组按钮 ]
+            通常是 li,
+            可以添加
+                标题添加 .dropdown-header;
+                分割线添加 .dropdown-divider;
+                禁用项添加 .disabled
 -->

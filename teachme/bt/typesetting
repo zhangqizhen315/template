@@ -1,0 +1,28 @@
+<--
+标题
+    h1 - h6 自带样式
+    所有内联元素样式, 对齐和缩略语, 都可以在标题里生效
+中心内容
+    添加 .lead 让段落突出显示
+内联元素
+    <mark> 高亮显示
+    <del> 被删除的文本
+    <s> 无用的文本
+    <ins> 插入的文本
+    <u> 带下划线的文本
+    <small> 小号文本
+    <strong> 强调文本
+    <em> 斜体
+对齐
+    添加 .text-left/center/right/justfy/nowarp ( 最后两个暂时不知道是干啥用的 )
+缩略语
+    <abbr titel="全称">缩略语</abbr>
+引用
+    <blockquote> 标签可以加入一段引用
+    里边加入 <footer> 可以添加脚标
+    在 <blockquote> 是加入 .blockquote-reverse 可以使用反向样式的引用 ( 右对齐 )
+列表
+    添加 .list-unstyled 设置无样式列表
+    添加 .list-inline 设置内联列表
+    在定义列表的 <dl> 标签中添加 .dl-horizontal 可以使定义列表变成一行两列的样式.
+-->
