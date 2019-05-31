@@ -1,0 +1,15 @@
+<!--
+    基本结构 
+        table＞( tr ＞ th*$ )＋( tr ＞ td*$ )
+    页眉页角
+        table>( thead > ( tr > td*$ ) ) + ( tfoot > ( tr >td*$ ) )>( tbody > ( tr > td*$ )*$ )
+    常用属性：
+        table：
+            border="num " 边框
+        th, td:
+            colspan="num" 跨列
+            rowspan="num" 跨行
+            header="header_id" 指定关联的表头
+            scope="col|colgroup|row|rowgroup" 表明该单元格是否是行, 行组, 列, 列组的头部
+
+--＞

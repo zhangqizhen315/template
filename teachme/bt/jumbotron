@@ -1,0 +1,6 @@
+<!--
+    jumbotron
+        给 div 加 jumbotron 可以设置一个巨幕. 目前看来 jumbotron 只对 div 生效.
+        添加 .jumbotron 的同时, 可以添加布局容器, 如 .container; 也可以添加文字排版样式, 如 .text-center
+        可以给巨幕内部添加栅格, 也可以给栅格内部添加巨幕.
+-->
