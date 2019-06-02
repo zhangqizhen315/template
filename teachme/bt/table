@@ -1,0 +1,13 @@
+<--
+    在 table 中添加的样式:
+        必须添加的:
+            .table [ 表格的基本样式 ]
+        可以添加的:
+            .table-striped [ 条纹 ]; .table-bordered [ 边框 ]; .table-hover [ 鼠标悬停 ] .table-condensed [ 紧凑 ]
+    在 tr/td 中添加的样式:
+        列或单无格状态样式:
+            .active [ 活动状态 ]; .success [ 成功 ]; .info [ 信息 ]; .warning [ 警告 ]; .danger [ 危险 ]
+    在外部容器中添加的样式:
+        响应式表格:
+            .table-reponsive
+-->
