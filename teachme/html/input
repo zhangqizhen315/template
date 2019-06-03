@@ -1,0 +1,17 @@
+<!--
+    input 的属性:
+        input 的 type 属性可指定这个 input 是什么:
+            button: 按钮.
+            checkbox: 复选框.
+            color: 拾色器.
+            date: 日期
+            datetime: 日期时间
+
+        当 type="submit" 或 type="image" 时特有的属性:
+            formaction=[URL] 规定提交表单时处理输入控件的文件的 URL
+            formenctype="" 规定提交控件时如何编码. 同 form 的 enctype.
+            formmethod="" 规定提交控件时, 使用的 HTTP 方法. 同 form 的 method.
+            formtarget="" 规定在哪里接受响应, 同 form 的 target.
+        当 type="image" 时特有的属性
+            alt: 替换文字; height: 图片高; width: 图片宽; src: 图片源;
+-->

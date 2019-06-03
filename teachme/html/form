@@ -1,0 +1,42 @@
+<!--
+    表单的基本结构是: form>[ 表单元素 ]
+    表单元素包括:
+        * input: 定义输入域.
+        * label: input 的标签
+        textarea: 多行文本框.
+        * button: 按钮
+        * select: 下拉选项列表
+            optgroup: 定义选项组
+            option: 定义选项
+        fieldset: 带边框的表单组
+            legend: 定义表单组的标题
+        datalist: 指定一个预先定义的输入控件选项列表
+        keygen: 定义一个密钥生成器
+        output: 定义一个计算结果.
+    form 的属性:
+        accept-charset="UTF-8": 规定服务器可处理的表单数据定符集. 也就是说, 如果需要指定 utf-8 用这个属性.
+        action=[URL]: 指定向何处发送表单数据
+        autocomplate="on|off": 规定是否启用表单的自动完成功能.
+        enctype="application/x-www-form-urlencoded|multipart/form-data|text/plain"
+            application/x-www-form-urlencoded: 默认. 对所有自符进行编码 ( 空格换成 + 号, 其它的特殊字符换成 ASCLL HEX 值 )
+            multipart/form-data: 上传文件必须设定该值. 不进行编码.
+            text/plain: 空格换成 + 号, 其它物殊字符不做处理.
+        method="get|post" 指定用于发送表单信息的 http 方法.
+        name=[text] 表单的名称.
+        novalidate="true|false" 指定是否在提交表单时不进行验证.
+        target="_blank|_self|_parent|_top|framename" 提交表单后, 如何响应. 就是返回页面, 在哪里打开.
+    表单元素的通过属性:
+        input/fieldset/select/button/textarea:
+            disable: 禁用; form: 关联的表单; name: 无素名;
+        input/textarea/select/button:
+            autofous: 自动获得焦点;
+        input/textarea/select:
+            required: 必填项;
+        input/textarea:
+            readonly: 只读; maxlength: 充许输入的最大字符数; placeholder: 提示文字;
+        input/select:
+            multiple: 多选；size: input 中这个属性用于通过指定字符数来控制控件长度, 在 select 中这个属性用于指定可见选项数.
+        textarea:
+            col: 定义行数; row: 定义列数; warp: 定义折行
+    button 和 input 是比较重头的表单元素, 请使用 teachmeHtmlInput 和 teachmeHtmlButton 查看详情.
+-->
