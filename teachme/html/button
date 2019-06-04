@@ -1,0 +1,9 @@
+<!--
+    button 是按钮元素. 主要属性有
+        type: 用于指定按钮类型
+            button: 普通按钮
+            submit: 提交按钮
+            reset: 重置按钮
+        覆盖 form 属性的属性:
+            formaction/formenctype/formnovalidate
+-->

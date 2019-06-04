@@ -1,11 +1,33 @@
 <!--
     input 的属性:
         input 的 type 属性可指定这个 input 是什么:
-            button: 按钮.
-            checkbox: 复选框.
-            color: 拾色器.
-            date: 日期
-            datetime: 日期时间
+            与时间相关的:
+                month: 作为年月的时间控件.
+                week: 周输入框
+                time: 时间控件
+                date: 日期
+                datetime: 日期时间
+                datetime-local: 本地日期时间
+            各种格式的输入框:
+                text: 输入框
+                number: 数字输入框
+                search: 搜索框
+                password: 定义密码字段
+                emial: 电子邮件
+                tel: 电话号码
+                url: 链接输入框
+                hidden: 隐藏输入字段.
+            按钮:
+                button: 按钮.
+                submit: 定义按钮
+                reset: 重置按钮
+                image: 作为提交按钮的图像.
+            选择器:
+                checkbox: 复选框.
+                color: 拾色器.
+                file: 文件, 用于上传文件.
+                radio: 单选按钮
+                range: 精确值不重要的输入数字的控件
 
         当 type="submit" 或 type="image" 时特有的属性:
             formaction=[URL] 规定提交表单时处理输入控件的文件的 URL
@@ -14,4 +36,13 @@
             formtarget="" 规定在哪里接受响应, 同 form 的 target.
         当 type="image" 时特有的属性
             alt: 替换文字; height: 图片高; width: 图片宽; src: 图片源;
+        较验输入框合法性的属性:
+            step=[number] 规定数字输入框的步长.
+            pattern=[regexp] 规定用于校验的正则表达式
+            max min maxlength 规定输入内容大小长短. 见 TeachmeHtmlForm
+        其它属性:
+            accept=[adio/*|video/*|image/*|MIME_type] 指定上传的文件的类型, 针对 file 类型的控件.
+            autocomplate="on|off" 是否开启自动完成
+            checked="checked" checkbox 或 radio 的预选项
+            list=[datalist_id] 指定 datalist 的 id
 -->

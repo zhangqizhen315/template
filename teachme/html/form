@@ -27,7 +27,7 @@
         target="_blank|_self|_parent|_top|framename" 提交表单后, 如何响应. 就是返回页面, 在哪里打开.
     表单元素的通过属性:
         input/fieldset/select/button/textarea:
-            disable: 禁用; form: 关联的表单; name: 无素名;
+            disable: 禁用; form: 关联的表单; name: 元素名;
         input/textarea/select/button:
             autofous: 自动获得焦点;
         input/textarea/select:
