@@ -1,0 +1,25 @@
+<!--
+    结构: 最基础的表单结构是 form[布局样式]>div[表单组]>[表单无素]
+        基本表单:           form>[表单元素]
+        输入框类表单:       div.form-group>label+input.form-control
+        单选/多选表单:      div.checkbox/radio>label>input[type=checkbox/radio]
+        下拉框/多选框:      select.form-control>option*$
+    布局: 通过对 form 添加不同的类, 指示不同的样式
+        基本表单:           不添加类
+        内联表单:           添加 .form-inline
+        水平表单:           添加 .form-horizontal 
+            使用水平表单的布局可以使用 col-md-* 来使用栅格进行布局.
+                label 的 col-md-* 需要添加在 label 标签上, 并为标签添加 .label-control
+                input 的 col-md-* 需要在外部使用 div.col-md-* 包一下. 注意, 不要直接添加在 form-group 后面, 而要新启一个 div
+    状态:
+        焦点状态:           直接在控件中使用 autofocus
+        禁用状态:           
+            禁用单个控件:   直接在控件中使用 disabled
+            禁用一个控件组: 在 feildset 中使用 disabled
+    校验状态:
+        在相应的父元素中使用 has-seccuss has-warning has-error 可带入相应的校验状态样式
+    反馈图标:
+        使用反馈图标需要在 from-group 级别的　div 添加 has-feedback
+        反馈图标以 span.glyphicon.glyphicon-*.form-control-feedback 的形式添加在 input 之后
+
+-->
