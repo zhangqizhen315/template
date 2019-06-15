@@ -1,0 +1,8 @@
+<!--
+    响应式图片:
+        添加样式: .img-responsive
+    改变图片形状:
+        圆角矩形: .img-rounded
+        圆形 (椭圆形): .img-circle
+        矩形: img-thumbnail
+-->
